@@ -1,0 +1,59 @@
+2026-03-11 14:18:56 | INFO | REQUEST | Mode: docker_engine | Framework: None | Input: Hi
+2026-03-11 14:21:01 | INFO | RESPONSE | Mode: llm | Time: 124.86s | Source: LLM
+2026-03-11 14:21:16 | INFO | REQUEST | Mode: dockerfile | Framework: None | Input: python with selenium
+2026-03-11 14:23:21 | INFO | RESPONSE | Mode: llm | Time: 125.38s | Source: LLM
+2026-03-11 14:31:08 | INFO | REQUEST | Mode: dockerfile | Framework: None | Input: python with selenium
+2026-03-11 14:32:00 | INFO | RESPONSE | Mode: llm | Time: 52.49s | Source: LLM
+2026-03-11 14:33:15 | INFO | REQUEST | Mode: dockerfile | Framework: None | Input: can you review this file?
+2026-03-11 14:33:15 | INFO | RESPONSE | Mode: llm | Time: 0.00s | Source: CACHE
+2026-03-11 14:33:28 | INFO | REQUEST | Mode: dockerfile | Framework: None | Input: can you review this docker file```Dockerfile # Dockerfile for Python with Seleni
+2026-03-11 14:33:28 | INFO | RESPONSE | Mode: llm | Time: 0.00s | Source: CACHE
+2026-03-11 14:44:10 | INFO | REQUEST | Mode: dockerfile | Framework: None | Input: flask with redis
+2026-03-11 14:44:41 | INFO | REQUEST | Mode: dockerfile | Framework: None | Input: Review  FROM python:3.12-slim  WORKDIR /app  # Install system dependencies RUN a
+2026-03-11 14:46:30 | INFO | RESPONSE | Mode: llm | Time: 109.34s | Source: LLM
+2026-03-11 15:07:41 | INFO | REQUEST | Mode: dockerfile | Framework: None | Input: flask mongo db
+2026-03-11 15:08:13 | INFO | REQUEST | Mode: dockerfile | Framework: None | Input: Express and mongoDB
+2026-03-11 15:08:28 | INFO | REQUEST | Mode: dockerfile | Framework: None | Input: python and selenium
+2026-03-11 15:08:49 | INFO | REQUEST | Mode: dockerfile | Framework: None | Input: can you review this
+2026-03-11 15:10:11 | INFO | RESPONSE | Mode: llm | Time: 82.42s | Source: LLM
+2026-03-11 15:13:09 | INFO | REQUEST | Mode: dockerfile | Framework: None | Input: FROM python:3.12-slim  WORKDIR /app  # Install system dependencies (includes Chr
+2026-03-11 15:13:09 | INFO | RESPONSE | Mode: llm | Time: 0.00s | Source: CACHE
+2026-03-11 15:13:22 | INFO | REQUEST | Mode: dockerfile | Framework: None | Input: FROM python:3.12-slim  WORKDIR /app  # Install system dependencies (includes Chr
+2026-03-11 15:13:22 | INFO | RESPONSE | Mode: llm | Time: 0.00s | Source: CACHE
+2026-03-11 15:14:44 | INFO | REQUEST | Mode: docker_engine | Framework: None | Input: list containers
+2026-03-11 15:15:27 | INFO | RESPONSE | Mode: llm | Time: 43.07s | Source: LLM
+2026-03-11 15:16:23 | INFO | REQUEST | Mode: docker_engine | Framework: None | Input: run mysql on port 8080
+2026-03-11 15:16:23 | INFO | RESPONSE | Mode: llm | Time: 0.00s | Source: CACHE
+2026-03-11 15:17:27 | INFO | REQUEST | Mode: docker_engine | Framework: None | Input: run mysql on port 8080
+2026-03-11 15:17:27 | INFO | RESPONSE | Mode: llm | Time: 0.00s | Source: CACHE
+2026-03-11 15:17:38 | INFO | REQUEST | Mode: docker_engine | Framework: None | Input: run nginx on port 8080
+2026-03-11 15:17:38 | INFO | RESPONSE | Mode: llm | Time: 0.00s | Source: CACHE
+2026-03-11 15:33:12 | INFO | REQUEST | Mode: docker_engine | Framework: None | Input: run mysql on port 8080
+2026-03-11 15:33:17 | INFO | RESPONSE | Mode: llm | Time: 5.49s | Source: LLM
+2026-03-11 15:33:42 | INFO | REQUEST | Mode: docker_engine | Framework: None | Input: run nginx on port 8080
+2026-03-11 15:33:47 | INFO | RESPONSE | Mode: llm | Time: 5.40s | Source: LLM
+2026-03-11 15:34:07 | INFO | REQUEST | Mode: docker_engine | Framework: None | Input: list containers
+2026-03-11 15:34:11 | INFO | RESPONSE | Mode: llm | Time: 4.12s | Source: LLM
+2026-03-11 15:34:20 | INFO | REQUEST | Mode: docker_engine | Framework: None | Input: stop all containers
+2026-03-11 15:34:24 | INFO | RESPONSE | Mode: llm | Time: 4.20s | Source: LLM
+2026-03-11 15:34:32 | INFO | REQUEST | Mode: docker_engine | Framework: None | Input: list containers
+2026-03-11 15:34:32 | INFO | RESPONSE | Mode: llm | Time: 0.00s | Source: CACHE
+2026-03-11 15:34:47 | INFO | REQUEST | Mode: dockerfile | Framework: None | Input: python with selenium
+2026-03-11 15:34:58 | INFO | REQUEST | Mode: dockerfile | Framework: None | Input: review FROM python:3.12-slim  WORKDIR /app  # Install system dependencies (inclu
+2026-03-11 15:36:56 | INFO | RESPONSE | Mode: llm | Time: 118.40s | Source: LLM
+2026-03-11 15:37:59 | INFO | REQUEST | Mode: rag | Framework: None | Input: Tell me about docker inspect
+2026-03-11 15:38:21 | INFO | RESPONSE | Mode: llm | Time: 21.32s | Source: LLM
+2026-03-11 15:48:59 | INFO | REQUEST | Mode: rag | Framework: None | Input: Hi
+2026-03-11 15:49:06 | INFO | RESPONSE | Mode: llm | Time: 6.70s | Source: LLM
+2026-03-11 15:49:40 | INFO | REQUEST | Mode: dockerfile | Framework: None | Input: can you create a python with selenium and java
+2026-03-11 15:49:54 | INFO | REQUEST | Mode: dockerfile | Framework: None | Input: selenium with java
+2026-03-11 15:50:02 | INFO | REQUEST | Mode: dockerfile | Framework: None | Input: java
+2026-03-11 15:51:04 | INFO | RESPONSE | Mode: llm | Time: 62.62s | Source: LLM
+2026-03-11 15:52:44 | INFO | REQUEST | Mode: dockerfile | Framework: None | Input: ``` FROM eclipse-temurin:21-jre-alpine  # Install system dependencies RUN apk ad
+2026-03-11 15:53:26 | INFO | RESPONSE | Mode: llm | Time: 42.45s | Source: LLM
+2026-03-11 15:55:51 | INFO | REQUEST | Mode: rag | Framework: None | Input: why nginx always runs on port 8080
+2026-03-11 15:56:17 | INFO | RESPONSE | Mode: llm | Time: 26.04s | Source: LLM
+2026-03-11 15:57:03 | INFO | REQUEST | Mode: rag | Framework: None | Input: whats the cmd to delete a docker image
+2026-03-11 15:57:19 | INFO | RESPONSE | Mode: llm | Time: 15.84s | Source: LLM
+2026-03-11 16:03:21 | INFO | REQUEST | Mode: rag | Framework: None | Input: HI
+2026-03-11 16:03:28 | INFO | RESPONSE | Mode: llm | Time: 6.47s | Source: LLM
